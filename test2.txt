@@ -1,0 +1,113 @@
+equation = require <math>;
+vectorFunc = from <matrix> require <math>;
+dotProductFun = from <matrix> => <math>;
+projection2D, projection3D = from <matrix> require <math>, from <matrix> => <picture>;
+
+
+public class Project(matrixEquation) implements projection, matrix, mathEquation
+	begin
+		private int xSquare, ySquare;
+		cosntant float start = 0.0;
+		
+		Project (int xSquare, int ySquare, float start)
+			begin
+				this.xSquare = xSquare;
+				this.ySquare = ySquare;
+				this.start = start;
+			end
+			\\hellohkjbk
+		boolean bool (int xSquare, int ySquare, float start)
+			begin
+				if(xSquare != start)
+					begin
+						return false;
+					end
+				else if(ySquare != start)
+					begin
+						return false;
+					end
+				else
+					begin
+						return true;
+					end
+			end
+
+		void move (int xSquare, ySquare)
+			begin
+				xSquare *= 2;
+				ySquare -= 1;
+			end
+
+		int changeX (int start, int startPrimary, int xSquare)
+			begin
+				/* this function is used for 
+				equalizing start and xSquare */
+				startPrimary = start;
+				while(start != xSquer)
+					begin
+						if(start > xSquare)
+							begin
+								start--;
+							end
+						else
+							begin
+								start++;
+							end
+					end
+				return start;
+			end
+
+		int changeY (int start, int startPrimary, int ySquare)
+			begin
+				/* this function is used for 
+				equalizing start and ySquare */
+				startPrimary = start;
+				for(int iterator = 0; start != ySquare; iterator++)
+					begin
+						\\ternary efsgrrhrher
+						expression:
+						start > ySquare ? start-- : start++;
+					end 
+				return start;
+			end
+
+		public static void main()
+			begin
+				const long input;
+
+				scan(input);
+
+					public Project p1 = Project(1, 2, 100);
+					cosnt Project p2 = Project();
+					Project p3;
+
+				swith input
+					begin
+						case 0:
+							print("the input number is too small! please start again.");
+						break;
+						case 100000:
+							print("the input number ias average, keep going!");
+						break;
+						default:
+							print("You need to enter a number greater than 1000.");
+						break;
+					end
+				do
+					begin
+						int yy = changeY(input, inputPrimary, yyy);
+						int xx = changeY(input, inputPrimary, xxx);
+						move(xx, yy);
+					end 
+				while(true)
+
+				try
+					begin
+						boolean bb = bool(xSquare, ySquare, start);
+					end
+				catch(startPrimary, start)
+					begin
+						print("error accrued!");	
+					end
+			end 
+	end

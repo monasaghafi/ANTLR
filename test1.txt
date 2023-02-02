@@ -1,0 +1,80 @@
+
+lib1 = require <math> ;
+func1 = from <math> require <floor> ;
+func2 = from <math> => <math> ;
+func1 , func2 = from <math> require <floor> , from <math> require <rand> ;
+
+class Dot() implements Movabale , Plottable , Eucledean
+begin
+    lib1 = require <math> ;
+    func1 = from <math> require <floor> ;
+    func2 = from <math> => <math> ;
+    func1 , func2 = from <math> require <floor> , from <math> require <rand> ;
+
+    class Dot() implements Movabale , Plottable , Eucledean
+    begin
+        /*DEFINE_CONTENTS*/
+        const string myConst = "monaSgh" ;
+        int myVar = 25 , myVar2 = 45 ;
+        int myArray[] = new int [4] ;
+        float array[] = [ 0.5 , 4.7 , 2.5 , 25.78 ] ;
+        private bool flag = true ;
+        private bool flag ;
+        private int px , tx ;
+
+        Dot( int px , int ex )
+        begin
+            xd += 25 ;
+            xp -= 45 ;
+        end
+
+        int move( int step , bool flag , string test )
+        begin
+            px *= step ;
+            return px ;
+        end
+
+        public Dot dot = Dot( 1 , 5 ) ;
+        const Dot origin = Dot() ;
+        public Random rand ;
+        Point point = null ;
+
+
+        \\testing single line comment
+
+        for ( int mona = 0 ; mona < 0 and seyfi > 15 ; myVar ++ )
+        begin
+
+            for px in range begin
+                IF
+                if ( x > 45 )   
+                begin
+                    mona += seyfi ;
+                end
+                /*TRYING_TO_HANDLE_EXCEPTIONS*/
+                try
+                begin
+                    res = num / num2 ;
+                end
+                catch ( devided , value )
+                begin
+                    res = 0 ;
+                end
+                px += pt ;
+
+                while ( xp > tx ) 
+                begin
+                    switch name
+                    begin
+                        case 1 :
+                        xy /= 45 ;
+                        break ;
+                    default :
+                        xr += fd ;
+                    end
+                tx += px ;
+                end
+        sum += mona ;
+        end
+    end
+end
